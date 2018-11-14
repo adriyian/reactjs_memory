@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './GuessCount.css'
 
-const GuessCount = () => <div className="guesses" />
+const GuessCount = ({guesses}) => <div className="guesses">Guesses: {guesses}</div>
 
 GuessCount.propTypes = {
     guesses: PropTypes.number.isRequired,
