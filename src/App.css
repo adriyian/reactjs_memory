@@ -1,0 +1,13 @@
+.memory {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  margin: auto;
+  user-select: none;
+}
+
+.memory h1{
+  margin: auto;
+  padding: 25px 0px;
+  color: rebeccapurple;
+}
